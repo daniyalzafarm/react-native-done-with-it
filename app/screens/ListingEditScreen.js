@@ -47,7 +47,7 @@ function ListingEditScreen(props) {
     setUploadVisible(true);
     const result = await listingApi.addListing(listing, (prog) => {
       setProgress(prog);
-      console.log(progress);
+      // console.log(progress);
     });
 
     if (!result.ok) {

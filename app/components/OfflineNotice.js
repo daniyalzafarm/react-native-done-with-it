@@ -22,11 +22,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: colors.primary,
-    height: 75,
+    height: 50,
     width: "100%",
-    // position: "absolute",
-
-    top: Constants.statusBarHeight,
+    // position: "relative",
+    marginTop: Constants.statusBarHeight,
+    // bottom: 0,
     zIndex: 1,
   },
   text: {
